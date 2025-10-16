@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 20vh;
+    margin: 0;
+    background-image:url('develop-bg.jpg') ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+}
+
+.navbar p span{
+    color: rgb(234, 187, 100);
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+  }
+.logo{
+    height: 40px;
+    width: auto;
+    margin-top: -13px;
+    border-radius: 50px;
+}
+
+.navbar .wrapper a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.navbar .wrapper :hover{
+    color: rgb(180, 141, 67);
+}
+
+.text{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.text p{
+  color: rgb(209, 202, 202);
+  font-weight: 700;
+  margin:10px;
+}
+
+.text h1{
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(to right, #2ce6ff, #b19dff, #fffae6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body{
+  position: fixed;
+}
+
+/* Container utama */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+/* Box masing-masing */
+.feature-box {
+  background: rgb(210, 207, 207);  /* transparan gelap */
+  border-top: 3px solid #facc15;   /* garis kuning di atas */
+  width: 300px;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgb(246, 205, 44);
+}
+
+/* Ikon */
+.icon {
+  font-size: 40px;
+  color: #facc15; /* kuning emas */
+  margin-bottom: 15px;
+}
+
+.icon img{
+    height: 70px;
+    width: auto;
+}
+
+/* Judul */
+.feature-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Tombol */
+.btn {
+  text-decoration: none;
+  color: #facc15;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+}
